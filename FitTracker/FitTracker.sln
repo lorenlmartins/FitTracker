@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitTracker", "FitTracker\FitTracker.csproj", "{32F78C1E-665C-4F87-9B13-D1B80A1AC322}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitTracker.Models", "FitTracker.Models\FitTracker.Models.csproj", "{B54EC4E5-3ABE-4211-A3DC-D41AB2E7BB8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{32F78C1E-665C-4F87-9B13-D1B80A1AC322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F78C1E-665C-4F87-9B13-D1B80A1AC322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F78C1E-665C-4F87-9B13-D1B80A1AC322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54EC4E5-3ABE-4211-A3DC-D41AB2E7BB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54EC4E5-3ABE-4211-A3DC-D41AB2E7BB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54EC4E5-3ABE-4211-A3DC-D41AB2E7BB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54EC4E5-3ABE-4211-A3DC-D41AB2E7BB8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
