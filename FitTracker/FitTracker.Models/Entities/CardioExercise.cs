@@ -7,5 +7,11 @@
         public override string? Name { get; set; }
 
         public TimeSpan DurationTime { get; set; }
+
+        public CardioExercise(string name, int durationTime)
+        {
+            Name = name;
+            DurationTime = new TimeSpan(durationTime);//TO DO: improve construction of property
+        }
     }
 }
