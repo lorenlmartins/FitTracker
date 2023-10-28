@@ -1,6 +1,6 @@
 ﻿namespace FitTracker.Models.Entities
 {
-    public class Exercise
+    public abstract class Exercise
     {
         public virtual int Id { get; set; }
 
